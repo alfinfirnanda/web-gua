@@ -1,3 +1,7 @@
-function klik() {
-    alert("Mau untuk mendari inspirasi dan problem solver?");
-}
+const buttons = document.querySelectorAll(".option-btn");
+
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+        alert("Kamu memilih " + button.textContent);
+    });
+});
