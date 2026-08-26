@@ -1,3 +1,3 @@
 function klik() {
-    alert("Anjay, tombolnya kepencet.");
+    alert("Mau untuk mendari inspirasi dan problem solver?");
 }
