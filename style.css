@@ -517,3 +517,57 @@ body{
     color: white;
     font-size: 16px;
 }
+.problem-card {
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 14px;
+    padding: 25px 28px;
+    margin-bottom: 20px;
+}
+
+.problem-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.problem-title i {
+    color: #e05c4b;
+    font-size: 18px;
+}
+
+.problem-title h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.problem-card p.problem-desc {
+    color: #cdbfae;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+.solution-box {
+    background: rgba(215,137,63,.08);
+    border-left: 3px solid #d7893f;
+    border-radius: 8px;
+    padding: 14px 18px;
+}
+
+.solution-box .solution-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #d7893f;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.solution-box p {
+    color: #e7d7c5;
+    font-size: 14px;
+    line-height: 1.7;
+}
