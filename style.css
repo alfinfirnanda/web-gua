@@ -322,3 +322,72 @@ body{
         display: none;
     }
 }
+.explore-btn {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.detail-hero {
+    text-align: center;
+    padding: 80px 20px 40px;
+}
+
+.detail-hero i {
+    font-size: 60px;
+    color: #d7893f;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.detail-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 44px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.detail-hero p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #e7d7c5;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.detail-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 20px 80px;
+}
+
+.detail-section h2 {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
+
+.detail-section p, .detail-section li {
+    color: #cdbfae;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.detail-section ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.back-link {
+    display: inline-block;
+    margin: 30px auto 0;
+    color: #d7893f;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
