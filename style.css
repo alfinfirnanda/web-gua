@@ -391,3 +391,94 @@ body{
 .back-link:hover {
     text-decoration: underline;
 }
+.inspiration-hero {
+    text-align: center;
+    padding: 80px 20px 20px;
+}
+
+.inspiration-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 44px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.inspiration-hero p {
+    color: #e7d7c5;
+    font-size: 17px;
+}
+
+.lang-inspiration {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.lang-inspiration-head {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+}
+
+.lang-inspiration-head i {
+    font-size: 30px;
+    color: #d7893f;
+}
+
+.lang-inspiration-head h2 {
+    color: white;
+    font-size: 26px;
+}
+
+.idea-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-bottom: 25px;
+}
+
+.idea-card {
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 12px;
+    padding: 18px;
+}
+
+.idea-card h4 {
+    color: #d7893f;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.idea-card p {
+    color: #cdbfae;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.code-example {
+    background: #1a1410;
+    border: 1px solid #4a3728;
+    border-radius: 12px;
+    padding: 20px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.code-example p {
+    color: #a97449;
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.code-example pre {
+    color: #e8dcc8;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}

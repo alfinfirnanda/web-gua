@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspiration - Nusantara Coder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=PlayFair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+
+<div class="container">
+
+    <nav class="navbar">
+        <div class="nav-logo">
+            <i class="fa-solid fa-code"></i>
+            Nusantara Coder
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#languages">Languages</a></li>
+            <li><a href="inspiration.html">Inspiration</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="nav-cta">Get Started</button>
+    </nav>
+
+    <section class="inspiration-hero">
+        <h1>Inspiration</h1>
+        <p>Ide proyek nyata buat tiap bahasa, lengkap dengan contoh kode buat mulai.</p>
+    </section>
+
+    <div class="lang-inspiration">
+        <div class="lang-inspiration-head">
+            <i class="fa-brands fa-java"></i>
+            <h2>Java</h2>
+        </div>
+
+        <div class="idea-list">
+            <div class="idea-card">
+                <h4>Aplikasi Kasir Sederhana</h4>
+                <p>Program input barang, hitung total, dan kembalian lewat console.</p>
+            </div>
+            <div class="idea-card">
+                <h4>Aplikasi To-Do List</h4>
+                <p>Simpan daftar tugas ke file, bisa tambah dan hapus item.</p>
+            </div>
+            <div class="idea-card">
+                <h4>Game Tebak Angka</h4>
+                <p>Program random angka, user menebak sampai benar.</p>
+            </div>
+        </div>
+
+        <div class="code-example">
+            <p>// Contoh: Program Kasir Sederhana</p>
+            <pre>import java.util.Scanner;
+
+public class Kasir {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Harga barang: ");
+        int harga = input.nextInt();
+        System.out.print("Uang dibayar: ");
+        int bayar = input.nextInt();
+        int kembalian = bayar - harga;
+        System.out.println("Kembalian: " + kembalian);
+    }
+}</pre>
+        </div>
+    </div>
+
+    <div class="lang-inspiration">
+        <div class="lang-inspiration-head">
+            <i class="fa-brands fa-js"></i>
+            <h2>JavaScript</h2>
+        </div>
+
+        <div class="idea-list">
+            <div class="idea-card">
+                <h4>Kalkulator Web</h4>
+                <p>Tombol angka dan operasi matematika dasar, tampil di layar.</p>
+            </div>
+            <div class="idea-card">
+                <h4>To-Do List Interaktif</h4>
+                <p>Tambah, centang selesai, dan hapus tugas langsung di browser.</p>
+            </div>
+            <div class="idea-card">
+                <h4>Dark Mode Toggle</h4>
+                <p>Tombol switch untuk ganti tema terang/gelap di website.</p>
+            </div>
+        </div>
+
+        <div class="code-example">
+            <p>// Contoh: Dark Mode Toggle</p>
+            <pre>const btn = document.querySelector("#toggleBtn");
+
+btn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+});</pre>
+        </div>
+    </div>
+
+    <div class="lang-inspiration">
+        <div class="lang-inspiration-head">
+            <i class="fa-brands fa-cplusplus"></i>
+            <h2>C++</h2>
+        </div>
+
+        <div class="idea-list">
+            <div class="idea-card">
+                <h4>Game Tic-Tac-Toe</h4>
+                <p>Papan 3x3 di console, 2 pemain bergantian.</p>
+            </div>
+            <div class="idea-card">
+                <h4>Konversi Suhu</h4>
+                <p>Program ubah Celcius ke Fahrenheit dan Kelvin.</p>
+            </div>
+            <div class="idea-card">
+                <h4>Simulasi Antrian</h4>
+                <p>Struktur data queue untuk simulasi antrian loket.</p>
+            </div>
+        </div>
+
+        <div class="code-example">
+            <p>// Contoh: Konversi Suhu</p>
+            <pre>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    float celcius;
+    cout &lt;&lt; "Masukkan suhu (Celcius): ";
+    cin &gt;&gt; celcius;
+
+    float fahrenheit = (celcius * 9/5) + 32;
+    cout &lt;&lt; "Fahrenheit: " &lt;&lt; fahrenheit &lt;&lt; endl;
+    return 0;
+}</pre>
+        </div>
+    </div>
+
+    <div class="lang-inspiration">
+        <div class="lang-inspiration-head">
+            <i class="fa-brands fa-python"></i>
+            <h2>Python</h2>
+        </div>
+
+        <div class="idea-list">
+            <div class="idea-card">
+                <h4>Web Scraper Sederhana</h4>
+                <p>Ambil judul artikel dari sebuah halaman web pakai requests.</p>
+            </div>
+            <div class="idea-card">
+                <h4>Chatbot Sederhana</h4>
+                <p>Bot balas otomatis berdasarkan kata kunci dari input user.</p>
+            </div>
+            <div class="idea-card">
+                <h4>Analisis Data CSV</h4>
+                <p>Baca file CSV, hitung rata-rata dan buat grafik pakai pandas.</p>
+            </div>
+        </div>
+
+        <div class="code-example">
+            <p># Contoh: Chatbot Sederhana</p>
+            <pre>while True:
+    pesan = input("Kamu: ").lower()
+    if "halo" in pesan:
+        print("Bot: Halo juga!")
+    elif "keluar" in pesan:
+        print("Bot: Sampai jumpa!")
+        break
+    else:
+        print("Bot: Maaf, aku belum ngerti.")</pre>
+        </div>
+    </div>
+
+    <a href="index.html" class="back-link" style="display:block; text-align:center; padding-bottom:60px;">&larr; Kembali ke Home</a>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
