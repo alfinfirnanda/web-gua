@@ -98,7 +98,23 @@
     </section>
 
 </div>
+<button class="chat-bubble" id="chatBubble">
+    <i class="fa-solid fa-comment-dots"></i>
+</button>
 
+<div class="chat-window" id="chatWindow">
+    <div class="chat-header">
+        <span>Coding Assistant</span>
+        <i class="fa-solid fa-xmark close-chat" id="closeChat"></i>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+        <div class="chat-msg bot">Halo! Tanya seputar Java, JavaScript, C++, Python, atau cara mulai belajar coding ya 👋</div>
+    </div>
+    <div class="chat-input-row">
+        <input type="text" id="chatInput" placeholder="Ketik pertanyaan...">
+        <button id="sendChat"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
